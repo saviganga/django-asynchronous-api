@@ -1,0 +1,13 @@
+version: "3.3"
+
+services:
+  async-api:
+    build: ./asyncAPI
+    container_name: "async_api"
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./asyncAPI:/usr/src/app
+    ports:
+      - "8000:8000"
+
+  
