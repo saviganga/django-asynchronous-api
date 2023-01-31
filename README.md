@@ -24,6 +24,10 @@ async app built with Django
 
 ```
 
+## Concerns
+
+1. The randomuser api url request times out occasionally so it has been commented out. The implementation is still defined
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
