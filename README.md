@@ -1,6 +1,6 @@
 # django-asynchronous-api
 
-url shortener api built with Django
+async app built with Django
 
 ## Requirement
 
